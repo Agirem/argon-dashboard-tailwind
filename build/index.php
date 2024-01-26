@@ -269,26 +269,65 @@ include('../build/header.php');
           <div class="border-black/12.5 mb-0 rounded-t-2xl border-b-0 border-solid p-6 pt-4 pb-0">
             <h6 class="capitalize dark:text-white">Nouvelle réservation</h6>
           </div>
+
           <div class="flex p-4">
-            <div class="flex items-start justify-start space pb-5">
+            <div class="flex items-center justify-start space pb-5">
+              <label for="places" class="mx-4">Date</label>
+              <input class="w-42 border-2 rounded-lg h-12 pl-2 border-blue-500" type="date" name="" id=""
+                placeholder="Num. CNI/Passeport" required />
+            </div>
+            <div class="flex items-center justify-start space pb-5">
+              <label for="places" class="mx-4">Heure</label>
+              <input class="w-42 border-2 rounded-lg h-12 pl-4 border-blue-500" type="date" name="" id=""
+                placeholder="Num. CNI/Passeport" required />
+
+            </div>
+          </div>
+
+          <div class="flex p-4">
+            <div class="flex items-center justify-start space pb-5">
               <label for="places">Nom complet</label>
-              <input class="w-[134px] ml-4" type="text" name="" id="" placeholder="Num. CNI/Passeport" required />
+              <input class="w-42 border-2 rounded-lg h-12 pl-4 border-blue-500 ml-4" type="text" name="" id=""
+                placeholder="Num. CNI/Passeport" required />
             </div>
           </div>
 
           <div class="flex p-4">
-            <div class="flex items-start justify-start space pb-5">
+            <div class="flex items-center justify-start space pb-5">
               <label for="places">CNI ou Passeport</label>
-              <input class="w-[134px] ml-4" type="text" name="" id="" placeholder="Num. CNI/Passeport" required />
+              <input class="w-42 border-2 rounded-lg h-12 pl-4 border-blue-500 ml-4" type="text" name="" id=""
+                placeholder="Num. CNI/Passeport" required />
+
             </div>
           </div>
 
           <div class="flex p-4">
-            <div class="flex items-start justify-start space pb-5">
+            <div class="flex items-center justify-start space pb-5">
               <label for="places">Téléphone</label>
-              <input class="w-[134px] ml-4" type="text" name="" id="" placeholder="Num. CNI/Passeport" required />
+              <input class="w-42 border-2 rounded-lg h-12 pl-4 border-blue-500 ml-4" type="text" name="" id=""
+                placeholder="Num. CNI/Passeport" required />
             </div>
           </div>
+
+          <div class="flex p-4 justify-center">
+            <div class="flex items-center justify-center space pb-5">
+              <input type="radio" id="contactChoice1" name="contact" value="email" class="mr-1" />
+              <label for="contactChoice1" class="mr-4">Cash</label>
+
+              <input type="radio" id="contactChoice2" name="contact" value="telephone" class="mr-1" />
+              <label for="contactChoice2">Mobile Money</label>
+            </div>
+          </div>
+
+          <div class="flex p-4 justify-center">
+            <div class="flex items-center justify-center space pb-5">
+              <button class="bg-blue-500 hover:bg-blue-700 text-white p-2 rounded-lg">
+                Valider la Réservation
+              </button>
+            </div>
+          </div>
+
+
         </div>
       </div>
 
@@ -299,18 +338,32 @@ include('../build/header.php');
             <h6 class="capitalize dark:text-white">Modifier une Réservation</h6>
           </div>
           <div class="flex p-4">
-            <div class="flex items-start justify-start space pb-5">
+            <div class="flex items-center justify-start space pb-5">
               <label for="places">Ref. Voyage</label>
-              <input class="w-[134px] ml-4" type="text" name="" id="" placeholder="Code du voyage" required />
+              <input class="w-42 border-2 rounded-lg h-12 pl-4 border-blue-500 ml-4" type="text" name="" id=""
+                placeholder="Num. CNI/Passeport" required />
+
             </div>
           </div>
 
           <div class="flex p-4">
-            <div class="flex items-start justify-start space pb-5">
+            <div class="flex items-center justify-start space pb-5">
               <label for="places">Date Voyage</label>
-              <input class="w-[134px] ml-4" type="date" name="" id="" required />
+              <input class="w-42 border-2 rounded-lg h-12 pl-4 border-blue-500 ml-4" type="date" name="" id=""
+                placeholder="Num. CNI/Passeport" required />
+
+            </div>
+
+          </div>
+
+          <div class="flex p-4 justify-center">
+            <div class="flex items-center justify-center space pb-5">
+              <button class="bg-blue-500 hover:bg-blue-700 text-white p-2 rounded-lg">
+                Rechercher le Billet
+              </button>
             </div>
           </div>
+
 
         </div>
       </div>
