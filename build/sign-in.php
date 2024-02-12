@@ -12,10 +12,10 @@
     <!-- Font Awesome Icons -->
     <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
     <!-- Nucleo Icons -->
-    <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
-    <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
+    <link href="../build/assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="../build/assets/css/nucleo-svg.css" rel="stylesheet" />
     <!-- Main Styling -->
-    <link href="../assets/css/argon-dashboard-tailwind.css?v=1.0.1" rel="stylesheet" />
+    <link href="../build/assets/css/argon-dashboard-tailwind.css" rel="stylesheet" />
   </head>
 
   <body class="m-0 font-sans antialiased font-normal bg-white text-start text-base leading-default text-slate-500">
@@ -34,15 +34,12 @@
                   <div class="flex-auto p-6">
                     <form role="form">
                       <div class="mb-4">
-                        <input type="email" placeholder="Email" class="focus:shadow-primary-outline dark:bg-gray-950 dark:placeholder:text-white/80 dark:text-white/80 text-sm leading-5.6 ease block w-full appearance-none rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding p-3 font-normal text-gray-700 outline-none transition-all placeholder:text-gray-500 focus:border-fuchsia-300 focus:outline-none" />
+                        <input type="email" placeholder="Pseudo, Nom ou Téléphone" class="focus:shadow-primary-outline dark:bg-gray-950 dark:placeholder:text-white/80 dark:text-white/80 text-sm leading-5.6 ease block w-full appearance-none rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding p-3 font-normal text-gray-700 outline-none transition-all placeholder:text-gray-500 focus:border-fuchsia-300 focus:outline-none" />
                       </div>
                       <div class="mb-4">
-                        <input type="password" placeholder="Password" class="focus:shadow-primary-outline dark:bg-gray-950 dark:placeholder:text-white/80 dark:text-white/80 text-sm leading-5.6 ease block w-full appearance-none rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding p-3 font-normal text-gray-700 outline-none transition-all placeholder:text-gray-500 focus:border-fuchsia-300 focus:outline-none" />
+                        <input type="password" placeholder="Mot de Passe" class="focus:shadow-primary-outline dark:bg-gray-950 dark:placeholder:text-white/80 dark:text-white/80 text-sm leading-5.6 ease block w-full appearance-none rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding p-3 font-normal text-gray-700 outline-none transition-all placeholder:text-gray-500 focus:border-fuchsia-300 focus:outline-none" />
                       </div>
-                      <div class="flex items-center pl-12 mb-0.5 text-left min-h-6">
-                        <input id="rememberMe" class="mt-0.5 rounded-10 duration-250 ease-in-out after:rounded-circle after:shadow-2xl after:duration-250 checked:after:translate-x-5.3 h-5 relative float-left -ml-12 w-10 cursor-pointer appearance-none border border-solid border-gray-200 bg-zinc-700/10 bg-none bg-contain bg-left bg-no-repeat align-top transition-all after:absolute after:top-px after:h-4 after:w-4 after:translate-x-px after:bg-white after:content-[''] checked:border-blue-500/95 checked:bg-blue-500/95 checked:bg-none checked:bg-right" type="checkbox" />
-                        <label class="ml-2 font-normal cursor-pointer select-none text-sm text-slate-700" for="rememberMe">Se souvenir de moi</label>
-                      </div>
+                    
                       <div class="text-center">
                         <button type="button" class="inline-block w-full px-16 py-3.5 mt-6 mb-0 font-bold leading-normal text-center text-white align-middle transition-all bg-blue-500 border-0 rounded-lg cursor-pointer hover:-translate-y-px active:opacity-85 hover:shadow-xs text-sm ease-in tracking-tight-rem shadow-md bg-150 bg-x-25">Connexion</button>
                       </div>
@@ -83,7 +80,7 @@
     </footer>
   </body>
   <!-- plugin for scrollbar  -->
-  <script src="../assets/js/plugins/perfect-scrollbar.min.js" async></script>
+  <script src="../build/assets/js/plugins/perfect-scrollbar.min.js" async></script>
   <!-- main script file  -->
-  <script src="../assets/js/argon-dashboard-tailwind.js?v=1.0.1" async></script>
+  <script src="../build/assets/js/argon-dashboard-tailwind.js?v=1.0.1" async></script>
 </html>

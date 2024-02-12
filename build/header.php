@@ -11,12 +11,12 @@
     <!-- Font Awesome Icons -->
     <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
     <!-- Nucleo Icons -->
-    <link href="../build/assets/css/nucleo-icons.css" rel="stylesheet" />
-    <link href="../build/assets/css/nucleo-svg.css" rel="stylesheet" />
+    <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
     <!-- Popper -->
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <!-- Main Styling -->
-    <link href="../build/assets/css/argon-dashboard-tailwind.css?v=1.0.1" rel="stylesheet" />
+    <link href="./assets/css/argon-dashboard-tailwind.css" rel="stylesheet" />
   </head>
 
   <body class="m-0 font-sans text-base antialiased font-normal dark:bg-slate-900 leading-default bg-gray-50 text-slate-500">
@@ -55,11 +55,12 @@
           </li>
 
           <li class="mt-0.5 w-full">
-            <a class=" dark:text-white dark:opacity-80 py-2.7 text-sm ease-nav-brand my-0 mx-2 flex items-center whitespace-nowrap px-4 transition-colors" href="./pages/billing.html">
+            <a class=" dark:text-white dark:opacity-80 py-2.7 text-sm ease-nav-brand my-0 mx-2 flex items-center whitespace-nowrap px-4 transition-colors" href="#">
               <div class="mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-center fill-current stroke-0 text-center xl:p-2.5">
                 <i class="relative top-0 text-sm leading-normal text-emerald-500 ni ni-credit-card"></i>
               </div>
-              <span class="ml-1 duration-300 opacity-100 pointer-events-none ease">Billets de Fidélité</span>
+              <span class="ml-1 duration-300 opacity-100 pointer-events-none ease mr-2">Billets de Fidélité</span>
+              <span class="bg-gradient-to-tl from-slate-600 to-slate-300 px-2.5 text-xs rounded-1.8 py-1.4 inline-block whitespace-nowrap text-center align-baseline font-bold uppercase leading-none text-white">Soon</span>
             </a>
           </li>
 
@@ -68,7 +69,7 @@
           </li>
 
           <li class="mt-0.5 w-full">
-            <a class=" dark:text-white dark:opacity-80 py-2.7 text-sm ease-nav-brand my-0 mx-2 flex items-center whitespace-nowrap px-4 transition-colors" href="./pages/profile.html">
+            <a class=" dark:text-white dark:opacity-80 py-2.7 text-sm ease-nav-brand my-0 mx-2 flex items-center whitespace-nowrap px-4 transition-colors" href="./pages/profile.php">
               <div class="mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-center stroke-0 text-center xl:p-2.5">
                 <i class="relative top-0 text-sm leading-normal text-slate-700 ni ni-single-02"></i>
               </div>
@@ -77,7 +78,7 @@
           </li>
 
           <li class="mt-0.5 w-full">
-            <a class=" dark:text-white dark:opacity-80 py-2.7 text-sm ease-nav-brand my-0 mx-2 flex items-center whitespace-nowrap px-4 transition-colors" href="./pages/sign-in.html">
+            <a class=" dark:text-white dark:opacity-80 py-2.7 text-sm ease-nav-brand my-0 mx-2 flex items-center whitespace-nowrap px-4 transition-colors" href="./sign-in.php">
               <div class="mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-center stroke-0 text-center xl:p-2.5">
                 <i class="relative top-0 text-sm leading-normal text-orange-500 ni ni-single-copy-04"></i>
               </div>

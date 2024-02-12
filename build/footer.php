@@ -22,6 +22,7 @@
     </main>
     
     </div>
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
   </body>
   <!-- plugin for scrollbar  -->
   <script src="../build/assets/js/plugins/perfect-scrollbar.min.js" async></script>
